@@ -146,7 +146,7 @@ def train_func_per_worker():
 
 if __name__ == "__main__":
     use_gpu = False  # Set to False if you want to run without GPUs
-    num_workers = 2
+    num_workers = 1
 
     scaling_config = ScalingConfig(num_workers=num_workers, use_gpu=use_gpu)
 
